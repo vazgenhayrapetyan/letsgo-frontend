@@ -1,0 +1,74 @@
+@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@theme {
+    --my-dark-green: #298787;
+}
+nav {
+    background-color: #298787;
+}
+.section_a {
+    width: 100%;
+}
+.section_aa {
+    width: 100%;
+    height: 500px;
+    background-color: #DDEBE6;
+    background-image: url('/src/assets/slider/2.png');
+    background-size: cover;
+    img {
+        width: auto;
+        height: 100%;
+    }
+}
+.section_ab {
+    height: 70px;
+    background-color: #5A9F9C;
+    padding: 0 50px;
+}
+.section_ab p {
+    color: #FFF;
+}
+
+.section_curses {
+  padding: 80px 60px;
+  border-bottom: solid 1px #DDEBE6;
+  .label {
+    color: #2B8585;
+  }
+  .curses-list {
+    div {
+        padding: 28px 28px;
+    }
+    .theory {
+        background-color: #EDF2E9;
+        min-height: 248px;
+        border-radius: 16px;
+        .label {
+            color: #2B8585;
+        }
+    }
+    .practice {
+        background-color: #143F40;
+        min-height: 248px;
+        border-radius: 16px;
+        .label {
+            color: #B3D23E;
+        }
+    }
+    }
+}
+
+/*Section theory*/
+.section_theory {
+    padding: 80px 55px;
+}
+
+/*Footer*/
+footer {
+    width: 100%;
+    height: 500px;
+    background-color: #143F40;
+}
